@@ -48,12 +48,12 @@ async def op(_, m :Message):
                         InlineKeyboardButton("Bots Channel", url="https://telegram.dog/MovieVillaYT"),
                         InlineKeyboardButton("Movies Channel", url="https://telegram.dog/dada_linkz")
                     ],[
-                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://telegram.me/Shizuka_filter_bot?startgroup")
+                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://telegram.me/DaDaAutoApproveBOT?startgroup")
                     ]
                 ]
             )
             add_user(m.from_user.id)
-            await m.reply_photo("https://telegra.ph/file/63d723680cca52ba46319.jpg", caption="**{}\nI'm an auto approve [Admin Join Requests]({}) Bot.\nI can approve users in Groups/Channels.Add me to your Channel Or Group and promote me Admin with add members permission.\n\n__By : @DaDaXBhai**".format(m.from_user.mention, "https://telegram.dog/DaDaXBhai"), reply_markup=keyboard)
+            await m.reply_photo("https://telegra.ph/file/63d723680cca52ba46319.jpg", caption="**{}\nI'm an Auto Approve [Admin Join Requests]({}) Bot.\nI Can Approve Users in Groups/Channels Add Me to Your Channel Or Group and Promote Me Admin With Add Members Permission.\n\n__By : @DaDaXBhai**".format(m.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard)
     
         elif m.chat.type == enums.ChatType.GROUP or enums.ChatType.SUPERGROUP:
             keyboar = InlineKeyboardMarkup(
@@ -92,7 +92,7 @@ async def chk(_, cb : CallbackQuery):
                         InlineKeyboardButton("🗯 Channel", url="https://telegram.dog/MovieVillaYT"),
                         InlineKeyboardButton("💬 Support", url="https://telegram.dog/MovieVillaSupport")
                     ],[
-                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://telegram.me/Shizuka_filter_bot?startgroup")
+                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://telegram.me/DaDaAutoApproveBOT?startgroup")
                     ]
                 ]
             )
